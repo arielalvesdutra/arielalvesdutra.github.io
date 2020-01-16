@@ -1,0 +1,26 @@
+[
+  { 
+    "title": "Técnico em Informática", 
+    "institution": {
+      "name": "Colégio Concórdia Canoas",
+      "site": "http://www.concordia.g12.br/",
+      "image": {
+        "url": "concordia.jpg",
+        "isLocal": true
+      }
+    },
+    "period": "2012 - 2013"  
+  },
+  { 
+    "title": "Graduação em Análise e Desenvolvimento de Sistemas", 
+    "institution": {
+      "name": "UNISINOS",
+      "site": "http://www.unisinos.br/",
+      "image": {
+        "url": "unisinos.png",
+        "isLocal": true
+      }
+    },
+    "period": "2014 - 2019"  
+  }
+]

@@ -1,0 +1,60 @@
+@import 'src/assets/sass/_colors.scss';
+@import 'src/assets/sass/_extends.scss';
+
+.projects {
+  @extend %sectionContent;
+  background: $primary-color-2;
+  color: $text-primary-color;
+}
+
+.projects__description {
+  @extend %genericDescription;
+}
+
+.projects__list {
+  @extend %sectionList;
+  text-align: left;
+}
+
+.projects__project {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 20px 0;
+  max-width: 300px;
+  padding: 10px;
+}
+
+.projects__description a,
+.projects__project a {
+  color: $text-primary-color;
+}
+
+.projects__project__description {
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+.projects__project__img {
+  border: 5px solid #ccc;
+  border-radius: 4px;
+  height: 200px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.projects__project__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: $primary-color-3;
+  color: $text-primary-color;
+}
+
+@media(max-width: 550px) {
+  .projects__project {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+  }
+}

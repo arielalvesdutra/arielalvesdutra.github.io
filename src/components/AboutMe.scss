@@ -1,0 +1,11 @@
+@import 'src/assets/sass/_colors.scss';
+@import 'src/assets/sass/_extends.scss';
+
+.aboutMe {
+  @extend %sectionContent;
+  color: $text-secondary-color;
+}
+
+.aboutMe__description {
+  @extend %genericDescription;
+}
