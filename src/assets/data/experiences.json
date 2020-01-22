@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Programador PHP",
+    "company": {
+      "name": "Moovin - Plataforma E-commerce",
+      "logo":  {
+        "url": "moovin.jpg",
+        "isLocal": true
+      },
+      "site": "https://www.moovin.com.br/"
+    },
+    "period": "Novembro/2017 - Agosto/2018",
+    "description": "Realizar a manutenção do backend da Plataforma E-commerce da empresa, lidando com PHP, MySQL, MongoDB, Javascript, SOAP, XML, JSON, REST, MVC, Design Patterns, Docker e Git."
+  },
+  {
+    "title": "Programador PHP",
+    "company": {
+      "name": "Meridien - Clube de Turismo",
+      "logo":  {
+        "url": "meridien.png",
+        "isLocal": true
+      },
+      "site": "https://www.meridienclube.com.br/"
+    },
+    "period": "Junho/2019 - Agosto/2019",
+    "description": "Desenvolver o novo sistema ERP da empresa com as tecnologias Laravel 5.8, Bootstrap e jQuery."
+  }
+]
