@@ -1,3 +1,3 @@
-# Portfólio de Ariel Alves Dutra
+# Ariel Alves Dutra portfolio
 
-Nesse reposítório eu estarei desenvolvendo e aprimorando o meu portfólio.
+In this repository I will be developing and improving my portfolio.
