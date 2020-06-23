@@ -10,7 +10,7 @@ const Presentation = () => {
               src={require(`../assets/img/profile.jpg`)}  />
         <h1>Ariel Alves Dutra</h1>
         <div>
-          Desenvolvedor de Software
+          Desenvolvedor Web
         </div>
       </div>
     </section>

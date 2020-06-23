@@ -1,12 +1,13 @@
 {
   "name": "arielalvesdutra.github.io",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://arielalvesdutra.github.io",
+  "description": "Ariel Alves Dutra portfolio.",
   "author": {
-    "name": "Ariel Alves Dutra"
+    "name": "Ariel Alves Dutra",
+    "email": "alves.lsn@gmail.com"
   },
-  "private": true,
-  "dependencies": {
+  "devDependencies": {    
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
@@ -15,12 +16,15 @@
     "@types/react": "^16.9.17",
     "@types/react-dom": "^16.9.4",
     "gh-pages": "^2.2.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "typeface-roboto": "0.0.75",
+    "node-sass": "^4.14.1",
     "typescript": "^3.7.4"
   },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.1",
+    "typeface-roboto": "0.0.75"
+  },  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -43,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "node-sass": "^4.14.1"
   }
 }
