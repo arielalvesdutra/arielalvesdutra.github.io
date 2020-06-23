@@ -25,12 +25,6 @@ const Contacts = () => {
               <span>GitHub</span>
             </a>
           </li>
-          <li className="contacts__contact">
-            <a className="contacts__contact__link" target="_blank" rel="noopener noreferrer"
-              href="https://cafecomceti.wordpress.com">
-              <span>Blog</span>
-            </a>
-          </li>
         </ul>
       </div>
     </section>
