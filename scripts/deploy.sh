@@ -23,7 +23,7 @@ function build() {
 }
 
 function delete_old_master_create_new() {
-  print_message "Merging into master"
+  print_message "Deleting old master branch and creating a new one"
   git checkout develop
   git branch -D master
   git checkout -b master
@@ -32,18 +32,18 @@ function delete_old_master_create_new() {
 function remove_non_build_content() {
   print_message "Removing content not related with master"
   list_files
-  rm -rf build/ node_modules/ scripts/ src/ tsconfig.json README.md package* public .env-example .env
+  rm -rf build/ scripts/ src/ tsconfig.json README.md package* public .env-example .env
   list_files
 }
 
 function add_end_push_master_force() {
-  print_message "Git add "
+  print_message "Git add"
   git add .
 
-  print_message "Git commit "
+  print_message "Git commit"
   git commit -m "Deploy"
 
-  print_message "Git push origin master"
+  print_message "Git push origin master --force"
   git push origin master --force
 }
 

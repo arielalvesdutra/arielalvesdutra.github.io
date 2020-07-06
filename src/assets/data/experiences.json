@@ -3,39 +3,48 @@
     "title": "Desenvolvedor Java",
     "company": {
       "name": "SimKorp",
-      "logo":  {
+      "logo": {
         "url": "generic-company.svg",
         "isLocal": true
       },
       "site": "https://www.simkorp.com.br/"
     },
     "period": "Fevereiro/2020 - Junho/2020",
-    "description": "Desenvolver integrações para a realização da comunicação de clientes, transportadoras e marketplaces, utilizando Java 8, Tomcat e JPA"
+    "description": [
+      "Criou integrações entre clientes, transportadoras e marketplaces",
+      "Criou documentações sobre o sistema"
+    ]
   },
   {
     "title": "Desenvolvedor PHP",
     "company": {
       "name": "Meridien - Clube de Turismo",
-      "logo":  {
+      "logo": {
         "url": "meridien.png",
         "isLocal": true
       },
       "site": "https://www.meridienclube.com.br/"
     },
     "period": "Junho/2019 - Agosto/2019",
-    "description": "Desenvolver o novo sistema ERP da empresa com as tecnologias Laravel 5.8, Bootstrap e jQuery."
+    "description": [
+      "Participou do início da reestruturação do novo ERP",
+      "Iniciou integrações com fornecedores"
+    ]
   },
   {
     "title": "Desenvolvedor PHP",
     "company": {
       "name": "Moovin - Plataforma E-commerce",
-      "logo":  {
+      "logo": {
         "url": "moovin.jpg",
         "isLocal": true
       },
       "site": "https://www.moovin.com.br/"
     },
     "period": "Novembro/2017 - Agosto/2018",
-    "description": "Realizar a manutenção do backend da Plataforma E-commerce da empresa, lidando com PHP, MySQL, MongoDB, Javascript, SOAP, XML, JSON, REST, MVC, Design Patterns, Docker e Git."
+    "description": [
+      "Criou/corrigiu integrações com fornecedores",
+      "Criou/corrigiu funcionalidades dos sistemas da empresa"
+    ]
   }
 ]
