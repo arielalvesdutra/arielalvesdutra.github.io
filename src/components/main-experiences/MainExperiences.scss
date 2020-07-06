@@ -42,6 +42,17 @@
   margin-top: 15px;
 }
 
+.mainExperiences__experience__description__list {
+  list-style-type: disc;
+  list-style-position: inside;  
+}
+
+.mainExperiences__experience__description__item:before {
+  content: "";
+  margin-right: -7px;
+  background: black;
+}
+
 @media(max-width: 550px) {
   .mainExperiences__experience {
     flex-wrap: wrap;
