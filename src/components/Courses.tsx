@@ -19,17 +19,18 @@ interface ICourseItemProps {
   course: ICourse
 }
 
-const CourseItem = ({ course}: ICourseItemProps) => {
+const CourseItem = ({ course }: ICourseItemProps) => {
   const { title, link, institutionLogo } = course
   const imageUrl = institutionLogo.isLocal
-      ? require(`../assets/img/${institutionLogo.url}`)
-      : institutionLogo.url
+    ? require(`../assets/img/${institutionLogo.url}`)
+    : institutionLogo.url
 
   return (
     <li className="courses__course">
-      <a href={link} className="courses__course__link">
+      <a href={link} className="courses__course__link"
+        target="_blank" rel="noopener noreferrer">
         <img className="courses__course__institutionLogo" src={imageUrl}
-              alt={`${title} Logo`} />
+          alt={`${title} Logo`} />
         <span className="courses__course__description">{title}</span>
       </a>
     </li>

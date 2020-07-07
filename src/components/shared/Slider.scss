@@ -1,0 +1,44 @@
+$arrowButton-background-color: #aaa;
+
+.slider,
+.slider__content {
+  width: 100%;
+}
+
+.slider__list {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slider__content__arrow__button {
+  color: white;
+  border:none;
+  background: $arrowButton-background-color;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle
+}
+
+.slider__content__arrow__button:hover {
+  opacity: 0.8;
+}
+
+.slider__content__arrow__button[disabled],
+.slider__content__arrow__button[disabled]:hover {
+  cursor: not-allowed;  
+  opacity: 0.4;
+}
+
+.slider__content__arrow__button:focus {
+  outline: none;
+}
+
+.slider__content__arrow__rightButton {
+  margin-left: 5px;
+}
