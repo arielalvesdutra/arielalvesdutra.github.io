@@ -1,17 +1,17 @@
 @import 'src/assets/sass/_colors.scss';
 @import 'src/assets/sass/_extends.scss';
 
-.technologies {
+.skills {
   @extend %sectionContent;
-  color: $primary-color-2;
-  color: #444;
+  color: $text-secondary-color;
 }
 
-.technologies__list {
+.skills__list {
   @extend %sectionList;
+  width: 100%;
 }
 
-.technologies__list__item {
+.skills__list__item {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -19,7 +19,7 @@
 }
 
 
-.technologies__description {
+.skills__description {
   margin-top: 60px;
   max-width: 720px;
   width: 100%;
@@ -28,10 +28,10 @@
   white-space: pre-wrap;
 }
 
-.technologies__description p {
+.skills__description p {
   margin-bottom: 5px;
 }
 
-.technologies__description p::first-letter {
+.skills__description p::first-letter {
   margin-left: 40px;
 }

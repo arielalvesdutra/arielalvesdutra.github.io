@@ -18,24 +18,6 @@
     ]
   },
   {
-    "title": "Registro de Horas",
-    "description": "Essa é primeira aplicação que eu coloquei no meu GitHub. Eu desenvolvi esse projeto para praticar <strong>PHP 7</strong> com <strong>Slim Framework</strong> e <strong>Angular 7</strong>. A aplicação consiste em cadastrar registros de esforço de tempo.",
-    "image": {
-      "url": "registro-de-horas.jpg",
-      "isLocal": true
-    },
-    "repositories": [
-      {
-        "url": "https://github.com/arielalvesdutra/Registro-de-Horas-Backend",
-        "name": "Backend"
-      },
-      {
-        "url": "https://github.com/arielalvesdutra/Registro-de-Horas-Frontend",
-        "name": "Frontend"
-      }
-    ]
-  },
-  {
     "title": "HCRPR",
     "description": "Essa aplicação foi desenvolvida para poder praticar <strong>Spring Boot</strong> com <strong>TDD</strong> e <strong>ReactJS</strong> com <strong>Typescript</strong>. A ideia do projeto é fornecer uma ferramenta que possa auxiliar a investigar problemas relacionados à hábitos. Um exemplo de uso está descrito no repositório de frontend.",
     "image": {
@@ -49,6 +31,24 @@
       },
       {
         "url": "https://github.com/arielalvesdutra/hcrpr-frontend",
+        "name": "Frontend"
+      }
+    ]
+  },
+  {
+    "title": "Registro de Horas",
+    "description": "Essa é primeira aplicação que eu coloquei no meu GitHub. Eu desenvolvi esse projeto para praticar <strong>PHP 7</strong> com <strong>Slim Framework</strong> e <strong>Angular 7</strong>. A aplicação consiste em cadastrar registros de esforço de tempo.",
+    "image": {
+      "url": "registro-de-horas.jpg",
+      "isLocal": true
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/arielalvesdutra/Registro-de-Horas-Backend",
+        "name": "Backend"
+      },
+      {
+        "url": "https://github.com/arielalvesdutra/Registro-de-Horas-Frontend",
         "name": "Frontend"
       }
     ]

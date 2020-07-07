@@ -5,8 +5,8 @@ import AboutMe from '../components/AboutMe'
 import Scholarity from '../components/Scholarity'
 import MainExperiences from '../components/main-experiences/MainExperiences'
 import Courses from '../components/Courses'
-import Technologies from '../components/Technologies'
-import Projects from '../components/Projects'
+import Skills from '../components/skills/Skills'
+import Projects from '../components/projects/Projects'
 import Contacts from '../components/Contacts'
 
 import './Main.scss'
@@ -18,10 +18,10 @@ const Main = () => {
       <Presentation />
       <AboutMe />
       <Scholarity /> 
+      <Skills />
+      <Projects />
       <MainExperiences />
       <Courses />
-      <Technologies />
-      <Projects /> 
       <Contacts />
     </main>
   )
