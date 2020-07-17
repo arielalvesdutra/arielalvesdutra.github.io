@@ -60,6 +60,10 @@ const Slider = (props: SliderProps) => {
     return currentSlide >= totalSlides
   }
 
+  const createArrayOf = (amount: number) => {
+    return [...Array(amount)]
+  }
+
   return (
     <div className="slider">
       <div className="slider__content">
@@ -84,9 +88,17 @@ const Slider = (props: SliderProps) => {
             </li>
           ))}
         </ul>
-
+        
+        <ul className="slider__bullets">
+          {createArrayOf(totalSlides).map((_, key) => (
+            <li className={`slider__bullets__bullet ${(key + 1) === currentSlide 
+                ? 'slider__bullets__bullet--active' : ''}`}
+                key={key}></li>
+          ))}
+        </ul>
       </div>
     </div>
+
   )
 }
 
