@@ -15,7 +15,7 @@
   @extend %sectionList; 
 }
 
-.projects__project {
+.projects__list__project {
   align-items: center;
   border-radius: 4px;
   display: flex;
@@ -27,24 +27,29 @@
 }
 
 .projects__description a,
-.projects__project a {
+.projects__list__project a {
   color: $text-primary-color;
 }
 
-.projects__project__description {
+.projects__list__project__description {
   margin-bottom: 10px;
   white-space: pre-wrap;
 }
 
-.projects__project__img {
-  border: 5px solid #ccc;
+.projects__list__project__image {
+  background: #efefef; 
+  border: 5px solid #efefef;
+  color: $text-secondary-color;
   border-radius: 4px;
   height: 200px;
   margin-bottom: 20px;
   width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.projects__project__title {
+.projects__list__project__title {
   font-size: 1.4rem;
   font-weight: bold;
   color: $primary-color-3;
@@ -52,7 +57,7 @@
 }
 
 @media(max-width: 550px) {
-  .projects__project {
+  .projects__list__project {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 0;

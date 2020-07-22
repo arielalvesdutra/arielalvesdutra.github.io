@@ -1,9 +1,9 @@
 [
   {
-    "title": "Post-Its",
-    "description": "Esse projeto foi desenvolvido com <strong>NodeJS</strong> e <strong>ReactJS</strong>. A aplicação fornece a possibilidade de cadastrar e filtrar post-its.",
+    "title": "Cadastro de post-its",
+    "description": "Esse projeto foi desenvolvido com <strong>Node.js</strong> e <strong>React.js</strong>. A aplicação fornece a possibilidade de cadastrar e filtrar post-its.",
     "image": {
-      "url": "post-its.png",
+      "url": "post-its.jpg",
       "isLocal": true
     },
     "repositories": [
@@ -18,28 +18,24 @@
     ]
   },
   {
-    "title": "HCRPR",
-    "description": "Essa aplicação foi desenvolvida para poder praticar <strong>Spring Boot</strong> com <strong>TDD</strong> e <strong>ReactJS</strong> com <strong>Typescript</strong>. A ideia do projeto é fornecer uma ferramenta que possa auxiliar a investigar problemas relacionados à hábitos. Um exemplo de uso está descrito no repositório de frontend.",
+    "title": "Listando repositórios do GitHub",
+    "description": "Frontend desenvolvido com <strong>jQuery</strong>, <strong>Bootstrap4</strong> e <strong>Axios</strong> para listar os repositórios de um usário do GitHub.",
     "image": {
-      "url": "hcrpr.png",
+      "url": "jquery-listing-github-repositories.png",
       "isLocal": true
     },
     "repositories": [
       {
-        "url": "https://github.com/arielalvesdutra/hcrpr-backend",
-        "name": "Backend"
-      },
-      {
-        "url": "https://github.com/arielalvesdutra/hcrpr-frontend",
+        "url": "https://github.com/arielalvesdutra/jquery-listing-github-repositories",
         "name": "Frontend"
       }
     ]
   },
   {
-    "title": "Registro de Horas",
-    "description": "Essa é primeira aplicação que eu coloquei no meu GitHub. Eu desenvolvi esse projeto para praticar <strong>PHP 7</strong> com <strong>Slim Framework</strong> e <strong>Angular 7</strong>. A aplicação consiste em cadastrar registros de esforço de tempo.",
+    "title": "Registro de atividades",
+    "description": "Primeira aplicação que publiquei no meu GitHub. Foi desenvolvida para praticar <strong>PHP 7</strong> com <strong>Slim Framework</strong> e <strong>Angular 7</strong>. A aplicação consiste em cadastrar registros de atividades.",
     "image": {
-      "url": "registro-de-horas.jpg",
+      "url": "registro-de-horas.png",
       "isLocal": true
     },
     "repositories": [
@@ -54,8 +50,22 @@
     ]
   },
   {
-    "title": "PRS",
-    "description": "Essa aplicação foi desenvolvida para poder praticar <strong>Spring Boot</strong>, <strong>Spring Security</strong>, <strong>TDD</strong> e <strong>Autorização Baseada em Permissões</strong>. Consiste no cadatro de Posts, em que o Usuário deve ser vinculado a uma Função que tem as devidas Permissões de postagem.",
+    "title": "Desafio das salas",
+    "description": "Aplicação desenvolvida para implementar um desafio, utilizando <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>Typescript</strong> e <strong>Testes Automatizados</strong>.",
+    "image": {
+      "url": "room-challenge.png",
+      "isLocal": true
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/arielalvesdutra/room_challenge",
+        "name": "Backend"
+      }
+    ]
+  },
+  {
+    "title": "Registro de posts e permissões de usuário",
+    "description": "Aplicação desenvolvida para praticar <strong>Spring Boot</strong>, <strong>Spring Security</strong>, <strong>TDD</strong> e <strong>Autorização Baseada em Permissões</strong>. Consiste no cadatro de Posts, em que o Usuário deve ser vinculado a uma Função que tem as devidas Permissões de postagem.",
     "image": {
       "url": "prs.png",
       "isLocal": true
@@ -64,6 +74,24 @@
       {
         "url": "https://github.com/arielalvesdutra/prs-backend",
         "name": "Backend"
+      }
+    ]
+  },
+  {
+    "title": "HCRPR",
+    "description": "Aplicação desenvolvida para praticar <strong>Spring Boot</strong> com <strong>TDD</strong> e <strong>React.js</strong> com <strong>Typescript</strong>.",
+    "image": {
+      "url": "hcrpr.png",
+      "isLocal": true
+    },
+    "repositories": [
+      {
+        "url": "https://github.com/arielalvesdutra/hcrpr-backend",
+        "name": "Backend"
+      },
+      {
+        "url": "https://github.com/arielalvesdutra/hcrpr-frontend",
+        "name": "Frontend"
       }
     ]
   }

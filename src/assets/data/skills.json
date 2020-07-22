@@ -32,7 +32,7 @@
     "site": "https://vuejs.org/"
   },
   {
-    "name": "ReactJS",
+    "name": "React.js",
     "image": {
       "isLocal": true,
       "url": "reactjs.png"
@@ -64,7 +64,7 @@
     "site": "https://www.typescriptlang.org/"
   },
   {
-    "name": "NodeJS",
+    "name": "Node.js",
     "image": {
       "isLocal": true,
       "url": "nodejs.png"

@@ -6,18 +6,6 @@
   color: $text-secondary-color;
 }
 
-.skills__list {
-  @extend %sectionList;
-  width: 100%;
-}
-
-.skills__list__item {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  margin: 0 20px 20px 0;
-}
-
 
 .skills__description {
   margin-top: 60px;
@@ -34,4 +22,29 @@
 
 .skills__description p::first-letter {
   margin-left: 40px;
+}
+
+.skills__list {
+  @extend %sectionList;
+  width: 100%;
+}
+
+.skills__list__skill {
+  margin: 0 0 20px 0;
+}
+
+.skills__list__skill__image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 10px 10px 10px;
+  background: $light-color;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__list__skill__name {
+  color: #777;
 }
