@@ -3,7 +3,7 @@
     "title": "Formação Java",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/alura.png"
+      "url": "alura.png"
     },
     "link": "https://cursos.alura.com.br/user/arielalvesdutra/degree-java-235/certificate"
   },
@@ -11,7 +11,7 @@
     "title": "Formação Java EE",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/alura.png"
+      "url": "alura.png"
     },
     "link": "https://cursos.alura.com.br/user/arielalvesdutra/degree-java-ee-2604/certificate"
   },
@@ -19,7 +19,7 @@
     "title": "Formação Integração de Aplicações Java",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/alura.png"
+      "url": "alura.png"
     },
     "link": "https://cursos.alura.com.br/user/arielalvesdutra/degree-integracao-aplicacoes-java-2517/certificate"
   },
@@ -27,7 +27,7 @@
     "title": "Formação Frontend",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/alura.png"
+      "url": "alura.png"
     },
     "link": "https://cursos.alura.com.br/user/arielalvesdutra/degree-front-end-232/certificate"
   },
@@ -35,7 +35,7 @@
     "title": "Formação Python Web",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/alura.png"
+      "url": "alura.png"
     },
     "link": "https://cursos.alura.com.br/user/arielalvesdutra/degree-python-web-2397/certificate"
   },
@@ -43,7 +43,7 @@
     "title": "Angular 4, 5 e 6",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/udemy.jpg"
+      "url": "udemy.jpg"
     },
     "link": "https://www.udemy.com/certificate/UC-LWTL1S1Y/"
   },
@@ -51,7 +51,7 @@
     "title": "Docker",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/udemy.jpg"
+      "url": "udemy.jpg"
     },
     "link": "https://www.udemy.com/certificate/UC-ER8Q8JQK/"
   },
@@ -59,7 +59,7 @@
     "title": "Web Moderno",
     "institutionLogo": {
       "isLocal": true,
-      "url": "courses/udemy.jpg"
+      "url": "udemy.jpg"
     },
     "link": "https://www.udemy.com/certificate/UC-0W936QQF/"
   }
