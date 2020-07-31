@@ -1,16 +1,20 @@
 import React from 'react';
-import './App.css';
-import Header from './containers/Header';
-import Main from './containers/Main';
-import Footer from './containers/Footer';
+import './App.scss';
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import Header from './containers/header/Header';
+import AppRoutes from './Routes'
+import Footer from './containers/footer/Footer'
 
 const App: React.FC = () => {
   return (
-    <div className="app">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+      <div className="app">
+        <Header />
+        <AppRoutes />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

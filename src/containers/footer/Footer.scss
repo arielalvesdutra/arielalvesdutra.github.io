@@ -1,0 +1,21 @@
+@import 'src/assets/sass/_colors.scss';
+
+.footer {  
+  padding: 20px 0;  
+}
+
+.footer__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__contacts__contact {
+  margin: 0 20px 0 0;
+}
+
+.footer__contacts__contact__link {
+  color: black;
+  text-decoration: underline;
+}
