@@ -56,9 +56,9 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-weight: bold;
-  margin: 5px 0 20px 0;
+	margin: 5px 0 20px 0;	
 }
 
 h3 {
@@ -74,4 +74,8 @@ strong {
 
 button {
 	cursor: pointer;
+}
+
+b {
+	font-weight: bold;
 }

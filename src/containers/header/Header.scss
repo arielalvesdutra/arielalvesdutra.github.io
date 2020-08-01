@@ -1,0 +1,63 @@
+@import 'src/assets/sass/_colors.scss';
+
+$header-background: #444444;
+
+.header {
+  padding: 10px 40px 0px 40px;
+  box-shadow: 0 0 15px 1px #444;
+  background: darkslategray;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1.2rem;  
+}
+
+.header__brand {
+  text-align: left;
+  padding: 15px 10px 10px 20px;
+}
+
+.header__brand__link {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.header__brand__title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.header__brand__description {
+  font-size: 0.9rem;
+  margin: 5px 0 0 0;
+}
+
+.header__nav { 
+  display: block;
+}
+
+.header__nav__links {
+  display: flex;
+  margin: 0 10px 0 0;  
+}
+
+.header__nav__links__link {
+  opacity: 1;
+  display: flex;
+}
+
+.header__nav__links__link:hover {  
+  background: white;
+  color: darkslategray;  
+}
+
+.header__nav__links__link--active {
+  text-decoration: underline;
+}
+
+.header__nav__links__link a {
+  color: inherit;
+  text-decoration: inherit;
+  padding: 10px;
+}

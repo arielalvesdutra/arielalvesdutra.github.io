@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Verdana';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #222;
+}
+
+body, #root, .app {
+  min-height: 100vh; 
+}
