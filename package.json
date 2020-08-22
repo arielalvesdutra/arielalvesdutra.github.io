@@ -1,6 +1,6 @@
 {
   "name": "arielalvesdutra.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://arielalvesdutra.github.io",
   "description": "Ariel Alves Dutra portfolio.",
   "author": {
@@ -18,13 +18,13 @@
     "@types/react-router-dom": "^5.1.5",
     "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "react-scripts": "3.4.3"
   },
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
