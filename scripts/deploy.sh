@@ -53,7 +53,7 @@ function checkout_to_working_branch() {
 }
 
 function deploy() {
-  print_message "Initiating the deploy"
+  print_message "Starting deploy. This script must be executed from root folder..."
   print_message "Current branch $current_branch"
   install_project_dependencies
   delete_old_master_create_new
